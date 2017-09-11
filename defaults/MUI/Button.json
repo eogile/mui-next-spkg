@@ -39,7 +39,7 @@
     "variant": "flat primary",
     "props": {
       "raised": false,
-      "primary": true
+      "color": "primary"
     },
     "children": [
       {
@@ -57,7 +57,7 @@
     "variant": "raised primary",
     "props": {
       "raised": true,
-      "primary": true
+      "color": "primary"
     },
     "children": [
       {
@@ -75,7 +75,7 @@
     "variant": "raised danger",
     "props": {
       "raised": true,
-      "accent": true
+      "color": "accent"
     },
     "children": [
       {
@@ -93,7 +93,7 @@
     "variant": "primary circled",
     "props": {
       "raised": true,
-      "primary": true,
+      "color": "primary",
       "fab": true
     },
     "children": [

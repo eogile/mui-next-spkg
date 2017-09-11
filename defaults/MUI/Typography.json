@@ -1,0 +1,13 @@
+[
+  {
+    "type": "Typography",
+    "namespace": "MUI",
+    "variant": "default",
+    "props": {
+      "type": "title",
+      "color": "inherit"
+    },
+    "children": [],
+    "text": "Text"
+  }
+]

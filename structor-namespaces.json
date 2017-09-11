@@ -4,19 +4,19 @@
     "packages": [
       {
         "name": "prop-types",
-        "version": "15.5.8"
+        "version": "15.5.10"
       },
       {
         "name": "react",
-        "version": "15.5.4"
+        "version": "15.6.1"
       },
       {
         "name": "material-ui-icons",
-        "version": "1.0.0-alpha.3"
+        "version": "1.0.0-beta.5"
       },
       {
         "name": "material-ui",
-        "version": "1.0.0-alpha.15"
+        "version": "1.0.0-beta.8"
       }
     ]
   }
