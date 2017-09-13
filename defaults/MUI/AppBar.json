@@ -1,0 +1,90 @@
+[
+  {
+    "type": "AppBar",
+    "variant": "default",
+    "namespace": "MUI",
+    "props": {
+      "position": "static"
+    },
+    "children": [
+      {
+        "type": "Toolbar",
+        "variant": "default",
+        "namespace": "MUI",
+        "props": {
+          "disableGutters": true
+        },
+        "children": [
+          {
+            "type": "IconButton",
+            "variant": "default",
+            "namespace": "MUI",
+            "props": {
+              "color": "contrast",
+              "aria-label": "Menu"
+            },
+            "children": [
+              {
+                "type": "MenuIcon",
+                "variant": "default",
+                "namespace": "MUIIcons",
+                "props": {}
+              }
+            ]
+          },
+          {
+            "type": "Typography",
+            "variant": "default",
+            "namespace": "MUI",
+            "props": {
+              "type": "title",
+              "color": "inherit",
+              "style": {
+                "flex": 1
+              }
+            },
+            "text": "Title"
+          },
+          {
+            "type": "Button",
+            "variant": "default",
+            "namespace": "MUI",
+            "props": {
+              "color": "contrast"
+            },
+            "text": "Login"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "AppBar",
+    "variant": "simple",
+    "namespace": "MUI",
+    "props": {
+      "position": "static",
+      "color": "default"
+    },
+    "children": [
+      {
+        "type": "Toolbar",
+        "variant": "default",
+        "namespace": "MUI",
+        "props": {},
+        "children": [
+          {
+            "type": "Typography",
+            "variant": "default",
+            "namespace": "MUI",
+            "props": {
+              "type": "title",
+              "color": "inherit"
+            },
+            "text": "Title"
+          }
+        ]
+      }
+    ]
+  }
+]
