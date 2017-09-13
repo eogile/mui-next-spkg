@@ -1,0 +1,159 @@
+[
+  {
+    "type": "Select",
+    "variant": "default",
+    "namespace": "MUI",
+    "props": {
+      "label": "Label",
+      "value": "",
+      "native": false,
+      "fullWidth": true
+    },
+    "children": [
+      {
+        "type": "MenuItem",
+        "variant": "default",
+        "namespace": "MUI",
+        "props": {
+          "value": ""
+        },
+        "children": [
+          {
+            "type": "em",
+            "text": "None",
+            "props": {}
+          }
+        ]
+      },
+      {
+        "type": "MenuItem",
+        "variant": "default",
+        "namespace": "MUI",
+        "props": {
+          "value": 1
+        },
+        "children": [
+          {
+            "type": "span",
+            "text": "Value 1",
+            "props": {}
+          }
+        ]
+      },
+      {
+        "type": "MenuItem",
+        "variant": "default",
+        "namespace": "MUI",
+        "props": {
+          "value": 2
+        },
+        "children": [
+          {
+            "type": "span",
+            "text": "Value 2",
+            "props": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "Select",
+    "variant": "error",
+    "namespace": "MUI",
+    "props": {
+      "label": "Label",
+      "value": "",
+      "native": false,
+      "fullWidth": true,
+      "error": true
+    },
+    "children": [
+      {
+        "type": "MenuItem",
+        "variant": "default",
+        "namespace": "MUI",
+        "props": {
+          "value": ""
+        },
+        "children": [
+          {
+            "type": "em",
+            "text": "None",
+            "props": {}
+          }
+        ]
+      },
+      {
+        "type": "MenuItem",
+        "variant": "default",
+        "namespace": "MUI",
+        "props": {
+          "value": 1
+        },
+        "children": [
+          {
+            "type": "span",
+            "text": "Value 1",
+            "props": {}
+          }
+        ]
+      },
+      {
+        "type": "MenuItem",
+        "variant": "default",
+        "namespace": "MUI",
+        "props": {
+          "value": 2
+        },
+        "children": [
+          {
+            "type": "span",
+            "text": "Value 2",
+            "props": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "Select",
+    "variant": "native",
+    "namespace": "MUI",
+    "props": {
+      "label": "Label",
+      "value": "",
+      "native": true,
+      "fullWidth": true
+    },
+    "children": [
+      {
+        "type": "option",
+        "variant": "default",
+        "namespace": "MUI",
+        "text": "",
+        "props": {
+          "value": ""
+        }
+      },
+      {
+        "type": "option",
+        "variant": "default",
+        "namespace": "MUI",
+        "text": "Value 1",
+        "props": {
+          "value": 1
+        }
+      },
+      {
+        "type": "option",
+        "variant": "default",
+        "namespace": "MUI",
+        "text": "Value 2",
+        "props": {
+          "value": 2
+        }
+      }
+    ]
+  }
+]

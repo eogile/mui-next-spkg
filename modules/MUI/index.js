@@ -5,9 +5,11 @@ import AppBar from 'material-ui/AppBar';
 import Avatar from 'material-ui/Avatar';
 import Button from 'material-ui/Button';
 import IconButton from 'material-ui/IconButton';
+import { MenuItem } from 'material-ui/Menu';
 import Paper from 'material-ui/Paper';
+import Select from './components/Select';
 import TextField from 'material-ui/TextField';
-import ToolBar from 'material-ui/ToolBar';
+import Toolbar from 'material-ui/Toolbar';
 import Typography from 'material-ui/Typography';
 import List, {
   ListItem,
@@ -16,7 +18,8 @@ import List, {
   ListItemSecondaryAction,
   ListItemText,
 } from 'material-ui/List';
-require('./css/styles.css');
+import './css/styles.css';
+
 export {
   ThemeProvider,
   LayoutContainer,
@@ -31,8 +34,10 @@ export {
   ListItemIcon,
   ListItemSecondaryAction,
   ListItemText,
+  MenuItem,
   Paper,
+  Select,
   TextField,
-  ToolBar,
+  Toolbar,
   Typography,
 };
