@@ -9,10 +9,6 @@ import PropTypes from "prop-types";
 import Grid from 'material-ui/Grid';
 
 class LayoutItem extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <Grid item {...this.props}>

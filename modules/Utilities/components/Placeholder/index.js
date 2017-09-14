@@ -17,10 +17,6 @@ const style = {
 };
 
 class Placeholder extends PureComponent {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div style={style}>

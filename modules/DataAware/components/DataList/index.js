@@ -3,17 +3,12 @@
 * DataList
 *
 */
-import {cloneDeep} from 'lodash';
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { List, ListItem, ListItemText } from "modules/MUI";
 
 class DataList extends Component {
-  constructor(props) {
-    super(props);
-  }
-
-  handleSelectItem = (id, primaryText, secondaryText) => (e) => {
+  handleSelectItem = (id, primaryText, secondaryText) => () => {
     const {onSelect} = this.props;
     if (onSelect) {
       onSelect(id, primaryText, secondaryText);
