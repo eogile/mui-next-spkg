@@ -1,0 +1,35 @@
+[
+  {
+    "type": "CircularProgress",
+    "variant": "default",
+    "namespace": "MUI",
+    "props": {}
+  },
+  {
+    "type": "CircularProgress",
+    "variant": "accent",
+    "namespace": "MUI",
+    "props": {
+      "color": "accent"
+    }
+  },
+  {
+    "type": "CircularProgress",
+    "variant": "determinate",
+    "namespace": "MUI",
+    "props": {
+      "mode": "determinate",
+      "min": 0,
+      "max": 100,
+      "value": 33
+    }
+  },
+  {
+    "type": "CircularProgress",
+    "variant": "size",
+    "namespace": "MUI",
+    "props": {
+      "size": 50
+    }
+  }
+]

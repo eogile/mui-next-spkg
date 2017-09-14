@@ -1,0 +1,19 @@
+[
+  {
+    "type": "Tooltip",
+    "variant": "default",
+    "namespace": "MUI",
+    "props": {
+      "label": "This is a description",
+      "placement": "bottom-end"
+    },
+    "children": [
+      {
+        "type": "Placeholder",
+        "variant": "default",
+        "namespace": "Utilities",
+        "props": {}
+      }
+    ]
+  }
+]

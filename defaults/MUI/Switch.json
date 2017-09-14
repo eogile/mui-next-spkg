@@ -1,0 +1,10 @@
+[
+  {
+    "type": "Switch",
+    "variant": "default",
+    "namespace": "MUI",
+    "props": {
+      "checked": true
+    }
+  }
+]

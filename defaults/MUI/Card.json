@@ -1,0 +1,57 @@
+[
+  {
+    "type": "Card",
+    "variant": "default",
+    "namespace": "MUI",
+    "props": {},
+    "children": [
+      {
+        "type": "CardContent",
+        "variant": "default",
+        "namespace": "MUI",
+        "props": {},
+        "children": [
+          {
+            "type": "Typography",
+            "variant": "default",
+            "namespace": "MUI",
+            "props": {
+              "type": "headline",
+              "component": "h2"
+            },
+            "text": "Card Title"
+          },
+          {
+            "type": "Placeholder",
+            "variant": "default",
+            "namespace": "Utilities",
+            "props": {}
+          }
+        ]
+      },
+      {
+        "type": "CardActions",
+        "variant": "default",
+        "namespace": "MUI",
+        "props": {},
+        "children": [
+          {
+            "type": "Button",
+            "variant": "default",
+            "namespace": "MUI",
+            "props": {},
+            "children": [
+              {
+                "type": "span",
+                "variant": "default",
+                "props": {},
+                "children": [],
+                "text": "Action"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

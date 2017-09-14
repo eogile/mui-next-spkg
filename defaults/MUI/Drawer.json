@@ -1,0 +1,52 @@
+[
+  {
+    "type": "Drawer",
+    "variant": "default",
+    "namespace": "MUI",
+    "props": {
+      "open": true,
+      "anchor": "left"
+    },
+    "children": [
+      {
+        "type": "Placeholder",
+        "variant": "default",
+        "namespace": "Utilities",
+        "props": {}
+      }
+    ]
+  },
+  {
+    "type": "Drawer",
+    "variant": "permanent",
+    "namespace": "MUI",
+    "props": {
+      "type": "permanent"
+    },
+    "children": [
+      {
+        "type": "Placeholder",
+        "variant": "default",
+        "namespace": "Utilities",
+        "props": {}
+      }
+    ]
+  },
+  {
+    "type": "Drawer",
+    "variant": "persistent",
+    "namespace": "MUI",
+    "props": {
+      "type": "persistent",
+      "open": true
+    },
+    "children": [
+      {
+        "type": "Placeholder",
+        "variant": "default",
+        "namespace": "Utilities",
+        "props": {}
+      }
+    ]
+  }
+]

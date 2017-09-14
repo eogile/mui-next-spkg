@@ -1,0 +1,158 @@
+[
+  {
+    "type": "Table",
+    "variant": "default",
+    "namespace": "MUI",
+    "props": {},
+    "children": [
+      {
+        "type": "TableHead",
+        "variant": "default",
+        "namespace": "MUI",
+        "props": {},
+        "children": [
+          {
+            "type": "TableRow",
+            "variant": "default",
+            "namespace": "MUI",
+            "props": {},
+            "children": [
+              {
+                "type": "TableCell",
+                "variant": "default",
+                "namespace": "MUI",
+                "props": {},
+                "children": [
+                  {
+                    "type": "TableSortLabel",
+                    "variant": "default",
+                    "namespace": "MUI",
+                    "props": {
+                      "active": true,
+                      "direction": "asc"
+                    },
+                    "text": "Column 1"
+                  }
+                ]
+              },
+              {
+                "type": "TableCell",
+                "variant": "default",
+                "namespace": "MUI",
+                "props": {
+                  "numeric": true
+                },
+                "children": [
+                  {
+                    "type": "TableSortLabel",
+                    "variant": "default",
+                    "namespace": "MUI",
+                    "props": {
+                      "active": false,
+                      "direction": "asc"
+                    },
+                    "text": "Column 2"
+                  }
+                ]
+              },
+              {
+                "type": "TableCell",
+                "variant": "default",
+                "namespace": "MUI",
+                "props": {
+                  "numeric": true
+                },
+                "children": [
+                  {
+                    "type": "TableSortLabel",
+                    "variant": "default",
+                    "namespace": "MUI",
+                    "props": {
+                      "active": false,
+                      "direction": "asc"
+                    },
+                    "text": "Column 3"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "TableBody",
+        "variant": "default",
+        "namespace": "MUI",
+        "props": {},
+        "children": [
+          {
+            "type": "TableRow",
+            "variant": "default",
+            "namespace": "MUI",
+            "props": {},
+            "children": [
+              {
+                "type": "TableCell",
+                "variant": "default",
+                "namespace": "MUI",
+                "props": {},
+                "text": "value1"
+              },
+              {
+                "type": "TableCell",
+                "variant": "default",
+                "namespace": "MUI",
+                "props": {
+                  "numeric": true
+                },
+                "text": "2345"
+              },
+              {
+                "type": "TableCell",
+                "variant": "default",
+                "namespace": "MUI",
+                "props": {
+                  "numeric": true
+                },
+                "text": "1"
+              }
+            ]
+          },
+          {
+            "type": "TableRow",
+            "variant": "default",
+            "namespace": "MUI",
+            "props": {},
+            "children": [
+              {
+                "type": "TableCell",
+                "variant": "default",
+                "namespace": "MUI",
+                "props": {},
+                "text": "value2"
+              },
+              {
+                "type": "TableCell",
+                "variant": "default",
+                "namespace": "MUI",
+                "props": {
+                  "numeric": true
+                },
+                "text": "89"
+              },
+              {
+                "type": "TableCell",
+                "variant": "default",
+                "namespace": "MUI",
+                "props": {
+                  "numeric": true
+                },
+                "text": "2"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

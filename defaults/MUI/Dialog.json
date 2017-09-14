@@ -1,0 +1,92 @@
+[
+  {
+    "type": "Dialog",
+    "variant": "default",
+    "namespace": "MUI",
+    "props": {
+      "open": true
+    },
+    "children": [
+      {
+        "type": "DialogTitle",
+        "variant": "default",
+        "namespace": "MUI",
+        "props": {},
+        "children": [
+          {
+            "type": "span",
+            "variant": "default",
+            "props": {},
+            "children": [],
+            "text": "Dialog Title"
+          }
+        ]
+      },
+      {
+        "type": "DialogContent",
+        "variant": "default",
+        "namespace": "MUI",
+        "props": {},
+        "children": [
+          {
+            "type": "DialogContentText",
+            "variant": "default",
+            "namespace": "MUI",
+            "props": {},
+            "text": "Card Title",
+            "children": [
+              {
+                "type": "Placeholder",
+                "variant": "default",
+                "namespace": "Utilities",
+                "props": {}
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "DialogActions",
+        "variant": "default",
+        "namespace": "MUI",
+        "props": {},
+        "children": [
+          {
+            "type": "Button",
+            "variant": "default",
+            "namespace": "MUI",
+            "props": {
+              "color": "primary"
+            },
+            "children": [
+              {
+                "type": "span",
+                "variant": "default",
+                "props": {},
+                "children": [],
+                "text": "Button 1"
+              }
+            ]
+          },
+          {
+            "type": "Button",
+            "variant": "default",
+            "namespace": "MUI",
+            "props": {
+              "color": "accent"
+            },
+            "children": [
+              {
+                "type": "span",
+                "variant": "default",
+                "props": {},
+                "children": [],
+                "text": "Button 2"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

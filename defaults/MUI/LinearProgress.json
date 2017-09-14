@@ -1,0 +1,47 @@
+[
+  {
+    "type": "LinearProgress",
+    "variant": "default",
+    "namespace": "MUI",
+    "props": {}
+  },
+  {
+    "type": "LinearProgress",
+    "variant": "accent",
+    "namespace": "MUI",
+    "props": {
+      "color": "accent"
+    }
+  },
+  {
+    "type": "LinearProgress",
+    "variant": "determinate",
+    "namespace": "MUI",
+    "props": {
+      "mode": "determinate",
+      "min": 0,
+      "max": 100,
+      "value": 33
+    }
+  },
+  {
+    "type": "LinearProgress",
+    "variant": "buffer",
+    "namespace": "MUI",
+    "props": {
+      "mode": "buffer",
+      "min": 0,
+      "max": 100,
+      "value": 33,
+      "valueBuffer": 50
+    }
+  },
+  {
+    "type": "LinearProgress",
+    "variant": "query",
+    "namespace": "MUI",
+    "props": {
+      "mode": "query"
+    }
+  }
+]

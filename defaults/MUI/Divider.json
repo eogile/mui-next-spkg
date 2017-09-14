@@ -1,0 +1,24 @@
+[
+  {
+    "type": "Divider",
+    "variant": "default",
+    "namespace": "MUI",
+    "props": {}
+  },
+  {
+    "type": "Divider",
+    "variant": "inset",
+    "namespace": "MUI",
+    "props": {
+      "inset": true
+    }
+  },
+  {
+    "type": "Divider",
+    "variant": "light",
+    "namespace": "MUI",
+    "props": {
+      "light": true
+    }
+  }
+]
