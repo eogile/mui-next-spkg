@@ -1,0 +1,74 @@
+[
+  {
+    "type": "FormControlLabel",
+    "variant": "default",
+    "namespace": "MUI",
+    "props": {
+      "label": "Form control"
+    },
+    "children": [
+      {
+        "type": "Placeholder",
+        "variant": "default",
+        "namespace": "Utilities",
+        "props": {},
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "FormControlLabel",
+    "variant": "checkbox",
+    "namespace": "MUI",
+    "props": {
+      "label": "Checkbox"
+    },
+    "children": [
+      {
+        "type": "Checkbox",
+        "variant": "default",
+        "namespace": "MUI",
+        "props": {
+          "checked": true
+        },
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "FormControlLabel",
+    "variant": "switch",
+    "namespace": "MUI",
+    "props": {
+      "label": "Switch"
+    },
+    "children": [
+      {
+        "type": "Switch",
+        "variant": "default",
+        "namespace": "MUI",
+        "props": {
+          "checked": true
+        },
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "FormControlLabel",
+    "variant": "switch",
+    "namespace": "MUI",
+    "props": {
+      "label": "Radio"
+    },
+    "children": [
+      {
+        "type": "Radio",
+        "variant": "default",
+        "namespace": "MUI",
+        "props": {},
+        "children": []
+      }
+    ]
+  }
+]

@@ -1,10 +1,12 @@
 import ThemeProvider from './components/ThemeProvider';
 import LayoutContainer from './components/LayoutContainer';
 import LayoutItem from './components/LayoutItem';
+import FormControlLabel from './components/FormControlLabel';
 import AppBar from 'material-ui/AppBar';
 import Avatar from 'material-ui/Avatar';
 import Button from 'material-ui/Button';
 import Card, { CardActions, CardContent, CardMedia, CardHeader } from 'material-ui/Card';
+import Checkbox from 'material-ui/Checkbox';
 import Chip from 'material-ui/Chip';
 import Dialog, {
   DialogActions,
@@ -14,6 +16,7 @@ import Dialog, {
 } from 'material-ui/Dialog';
 import Divider from 'material-ui/Divider';
 import Drawer from 'material-ui/Drawer';
+import { FormLabel, FormControl } from 'material-ui/Form';
 import IconButton from 'material-ui/IconButton';
 import List, {
   ListItem,
@@ -27,6 +30,7 @@ import Paper from 'material-ui/Paper';
 import { CircularProgress, LinearProgress } from 'material-ui/Progress';
 import Radio, { RadioGroup } from 'material-ui/Radio';
 import Select from './components/Select';
+import Switch from 'material-ui/Switch';
 import Table, { TableBody, TableCell, TableHead, TableRow, TableSortLabel } from 'material-ui/Table';
 import TextField from 'material-ui/TextField';
 import Toolbar from 'material-ui/Toolbar';
@@ -46,6 +50,7 @@ export {
   CardContent,
   CardMedia,
   CardHeader,
+  Checkbox,
   Chip,
   Dialog,
   DialogActions,
@@ -54,6 +59,9 @@ export {
   DialogTitle,
   Divider,
   Drawer,
+  FormControlLabel,
+  FormControl,
+  FormLabel,
   IconButton,
   List,
   ListItem,
@@ -68,6 +76,7 @@ export {
   Radio,
   RadioGroup,
   Select,
+  Switch,
   Table,
   TableBody,
   TableCell,
